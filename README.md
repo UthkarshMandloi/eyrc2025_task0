@@ -38,11 +38,11 @@ pip install opencv-python numpy
 
 ## How to Run
 
-# Run the script from the command line:
+### Run the script from the command line:
 ```bash
 python3 shape_detection.py
 ```
-# The script will print the number of green triangles and green squares:
+### The script will print the number of green triangles and green squares:
 ```bash
 Number of green triangles: X
 Number of green squares: Y
