@@ -38,10 +38,11 @@ pip install opencv-python numpy
 
 ## How to Run
 
+# Run the script from the command line:
 ```bash
 python3 shape_detection.py
 ```
-
+# The script will print the number of green triangles and green squares:
 ```bash
 Number of green triangles: X
 Number of green squares: Y
@@ -90,6 +91,3 @@ python3 shape_detection.py
 - Small contours (area < 200) are ignored to reduce noise.
 - Squares are confirmed by checking side lengths, angles, and aspect ratio.
 
-## Disclaimer
-
-This is a bonus task and will not be evaluated. The goal is to practice using OpenCV for image processing.
